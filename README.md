@@ -154,9 +154,10 @@ A community-driven module that allows students to share interview-related knowle
 * Role-based middleware
 
 ---
+
 ## Project Structure
 
-The project is organized as a monorepo with clear separation between the frontend and backend, following scalable and maintainable conventions.
+The project is organized as a monorepo with a clear separation between frontend and backend, following scalable and maintainable conventions.
 
 ```bash
 CampusConnect/
@@ -231,13 +232,11 @@ CampusConnect/
 
 ### Architectural Notes
 
-* Backend follows a **controller–route–model** pattern
-* Frontend uses **feature-based component organization**
+* Backend follows a controller–route–model pattern
+* Frontend uses feature-based component organization
 * Redux Toolkit is used for predictable state management
 * Role-based access is enforced at both routing and API levels
 * Designed for scalability and real-world deployment
-
-```
 
 ---
 
@@ -280,7 +279,7 @@ CampusConnect/
 ### Backend
 
 ```bash
-cd server
+cd backend
 npm install
 npm run dev
 ```
@@ -288,14 +287,14 @@ npm run dev
 ### Frontend
 
 ```bash
-cd client
+cd frontend
 npm install
 npm run dev
 ```
 
 ### Environment Variables
 
-Create a `.env` file in the **server** directory:
+Create a `.env` file in the root directory:
 
 ```env
 MONGO_URI=
