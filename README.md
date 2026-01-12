@@ -98,38 +98,34 @@ Withdrawing an application only removes it from CampusConnect. External company 
 
 ## Interview Preparation Module
 
-A community-driven module that allows students to share interview-related knowledge and experiences.
+A community-driven module that allows students to prepare for interviews through shared knowledge and resume analysis.
 
 ### Post Creation
+- Interview experiences
+- Interview questions
+- Tips and preparation strategies
 
-* Interview experiences
-* Interview questions
-* Tips and preparation strategies
-
----
+### Resume Analyzer
+- Upload resumes for automated analysis and feedback
+- Provides insights on structure, clarity, and improvement areas
+- Helps students identify gaps before applying to roles
 
 ### Content Discovery
-
-* Search by:
-
-  * Title
-  * Content
-  * Company
-  * Role
-  * Tags
-* Filter by:
-
-  * Post type (Experience, Questions, Tips)
-  * Company
-  * Role
-
----
+- Search by:
+  - Title
+  - Content
+  - Company
+  - Role
+  - Tags
+- Filter by:
+  - Post type (Experience, Questions, Tips)
+  - Company
+  - Role
 
 ### Engagement
-
-* Upvote posts
-* Clickable tags for instant filtering
-* Fully responsive user interface
+- Upvote posts
+- Clickable tags for instant filtering
+- Fully responsive user interface
 
 ---
 
