@@ -1,0 +1,24 @@
+{
+  "name": "campusconnect",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch backend/server.js",
+    "build": "npm --prefix frontend install && npm --prefix frontend run build",
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mammoth": "^1.11.0",
+    "mongoose": "^9.0.0",
+    "multer": "^2.0.2",
+    "pdf-parse": "^1.1.1"
+  }
+}
+
