@@ -14,7 +14,7 @@ export default function StudentRoute({
   if (!user) return <Navigate to="/login" replace />;
 
   if (user.role !== "student") {
-    return <Navigate to="/jobs" replace />;
+    return <Navigate to="/admin/dashboard" replace />;
   }
 
   return children;
